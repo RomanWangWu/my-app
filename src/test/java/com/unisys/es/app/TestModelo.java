@@ -32,7 +32,7 @@ public class TestModelo {
 
     @Test
     public void TestHasDefaultValues() {
-         // assertThat(modelo.listado.get(0), is("Uno"));
+          assertThat(modelo.listado.get(0), is("Uno"));
          assertThat(modelo.listado.get(1), is("Dos"));
     }
 

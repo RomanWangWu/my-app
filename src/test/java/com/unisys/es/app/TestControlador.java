@@ -21,11 +21,11 @@ public class TestControlador {
     public void TestNotNull() {
         assertThat(controlador,notNullValue());
     }
-/*
+
     @Test
     public void TestModelNotNull() {
         assertThat(controlador.model,notNullValue());
     }
-*/
+
 
 }
