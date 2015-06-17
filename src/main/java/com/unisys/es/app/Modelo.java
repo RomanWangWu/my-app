@@ -13,6 +13,7 @@ public class Modelo {
         listado=new ArrayList<String>();
         listado.add("Uno");
         listado.add("dos");
+        // jajaja
     }
 
     public List<String> listado() {
