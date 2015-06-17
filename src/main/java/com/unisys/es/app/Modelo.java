@@ -12,7 +12,7 @@ public class Modelo {
     Modelo () {
         listado=new ArrayList<String>();
         listado.add("Uno");
-        listado.add("dos");
+        listado.add("Tres");
         // jajaja
     }
 
