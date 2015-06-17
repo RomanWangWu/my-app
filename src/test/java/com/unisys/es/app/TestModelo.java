@@ -32,16 +32,17 @@ public class TestModelo {
 
     @Test
     public void TestHasDefaultValues() {
-        // assertThat(modelo.listado.get(0), is("Uno"));
-        // assertThat(modelo.listado.get(1), is("Dos"));
+         assertThat(modelo.listado.get(0), is("Uno"));
+         assertThat(modelo.listado.get(1), is("Dos"));
     }
 
     @Test
     public void TestListCall() {
         List<String> listado=new ArrayList<String>();
-        // listado.add("Uno");
-        // listado.add("Dos");
-        // assertThat(modelo.listado, is(listado));
+         listado.add("Uno");
+         listado.add("Dos");
+        //
+        assertThat(modelo.listado, is(listado));
     }
 
 }
